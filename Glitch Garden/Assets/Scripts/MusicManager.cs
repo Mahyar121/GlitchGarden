@@ -11,8 +11,6 @@ public class MusicManager : MonoBehaviour
     {
         // Don't destroy the game object when we load a new level
         DontDestroyOnLoad(gameObject);
-
-        
     }
     // Use this for initialization
     void Start ()
