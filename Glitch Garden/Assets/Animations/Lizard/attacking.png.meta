@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: f2eeb5cb5ae204f6bb601154a93f60dd
-timeCreated: 1482793527
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: attacking_0
@@ -93,12 +91,12 @@ TextureImporter:
     21300172: attacking_86
     21300174: attacking_87
     21300176: attacking_88
-  serializedVersion: 4
+  serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
     linearTexture: 0
+    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -106,12 +104,11 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: 0.25
+    heightScale: .25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
-  cubemapConvolution: 0
+  generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 4096
@@ -127,1220 +124,903 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 133.3333
-  alphaUsage: 1
+  spritePixelsToUnits: 133.333298
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
-  textureShape: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  platformSettings:
-  - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 4096
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: iPhone
-    maxTextureSize: 4096
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 4096
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: WebGL
-    maxTextureSize: 4096
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+  buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: attacking_0
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_1
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_2
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_3
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_4
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_5
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_6
-      rect:
-        serializedVersion: 2
-        x: 1543
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_7
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_8
-      rect:
-        serializedVersion: 2
-        x: 2045
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_9
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_10
-      rect:
-        serializedVersion: 2
-        x: 2547
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_11
-      rect:
-        serializedVersion: 2
-        x: 2799
-        y: 952
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_12
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 952
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_13
-      rect:
-        serializedVersion: 2
-        x: 3301
-        y: 952
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_14
-      rect:
-        serializedVersion: 2
-        x: 3552
-        y: 952
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_15
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 766
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_16
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 766
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_17
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 766
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_18
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 766
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_19
-      rect:
-        serializedVersion: 2
-        x: 1042
-        y: 766
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_20
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 766
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_21
-      rect:
-        serializedVersion: 2
-        x: 1543
-        y: 766
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_22
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 766
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_23
-      rect:
-        serializedVersion: 2
-        x: 2045
-        y: 766
-        width: 80
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_24
-      rect:
-        serializedVersion: 2
-        x: 2295
-        y: 766
-        width: 81
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_25
-      rect:
-        serializedVersion: 2
-        x: 2546
-        y: 766
-        width: 81
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_26
-      rect:
-        serializedVersion: 2
-        x: 2797
-        y: 766
-        width: 81
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_27
-      rect:
-        serializedVersion: 2
-        x: 3048
-        y: 766
-        width: 81
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_28
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 766
-        width: 80
-        height: 87
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_29
-      rect:
-        serializedVersion: 2
-        x: 3551
-        y: 766
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_30
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_31
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_32
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_33
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_34
-      rect:
-        serializedVersion: 2
-        x: 1042
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_35
-      rect:
-        serializedVersion: 2
-        x: 1293
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_36
-      rect:
-        serializedVersion: 2
-        x: 1544
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_37
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_38
-      rect:
-        serializedVersion: 2
-        x: 2046
-        y: 580
-        width: 79
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_39
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_40
-      rect:
-        serializedVersion: 2
-        x: 2547
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_41
-      rect:
-        serializedVersion: 2
-        x: 2798
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_42
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_43
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_44
-      rect:
-        serializedVersion: 2
-        x: 3551
-        y: 580
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_45
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_46
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_47
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_48
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_49
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_50
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_51
-      rect:
-        serializedVersion: 2
-        x: 1543
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_52
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_53
-      rect:
-        serializedVersion: 2
-        x: 2045
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_54
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_55
-      rect:
-        serializedVersion: 2
-        x: 2547
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_56
-      rect:
-        serializedVersion: 2
-        x: 2798
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_57
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_58
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_59
-      rect:
-        serializedVersion: 2
-        x: 3551
-        y: 394
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_60
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_61
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_62
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_63
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_64
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_65
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_66
-      rect:
-        serializedVersion: 2
-        x: 1543
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_67
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_68
-      rect:
-        serializedVersion: 2
-        x: 2045
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_69
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_70
-      rect:
-        serializedVersion: 2
-        x: 2547
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_71
-      rect:
-        serializedVersion: 2
-        x: 2798
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_72
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_73
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_74
-      rect:
-        serializedVersion: 2
-        x: 3551
-        y: 208
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_75
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_76
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_77
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_78
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_79
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_80
-      rect:
-        serializedVersion: 2
-        x: 1292
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_81
-      rect:
-        serializedVersion: 2
-        x: 1543
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_82
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_83
-      rect:
-        serializedVersion: 2
-        x: 2045
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_84
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_85
-      rect:
-        serializedVersion: 2
-        x: 2547
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_86
-      rect:
-        serializedVersion: 2
-        x: 2798
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_87
-      rect:
-        serializedVersion: 2
-        x: 3049
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: attacking_88
-      rect:
-        serializedVersion: 2
-        x: 3300
-        y: 22
-        width: 80
-        height: 86
-      alignment: 9
-      pivot: {x: 0, y: 2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    outline: []
+    - name: attacking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_4
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_5
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_6
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_7
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_8
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_9
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_10
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_11
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_12
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_13
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_14
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_18
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_19
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_20
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_21
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_22
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_23
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_24
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_25
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_26
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_27
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_28
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_29
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_31
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_32
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_33
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_34
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_35
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_36
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_37
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_38
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_39
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_40
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_41
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_42
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_43
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_44
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_46
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_47
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_48
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_49
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_50
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_51
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_52
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_53
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_54
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_55
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_56
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_57
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_58
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_59
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_61
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_62
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_63
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_64
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_65
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_66
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_67
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_68
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_69
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_70
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_71
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_72
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_73
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_74
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_76
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_77
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_78
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_79
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_80
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_81
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_82
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_83
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_84
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_85
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_86
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_87
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attacking_88
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

@@ -1,34 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
-public class FadeIn : MonoBehaviour
-{
-    public float fadeInTime;
+public class FadeIn : MonoBehaviour {
 
-    private Image fadePanel;
-    private Color currentColor = Color.black;
+	public float fadeInTime;
+	
+	private Image fadePanel;
+	private Color currentColor = Color.black;
 
 	// Use this for initialization
-	void Start ()
-    {
-        fadePanel = GetComponent<Image>();
+	void Start () {
+		fadePanel = GetComponent<Image>();
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
-		if (Time.timeSinceLevelLoad < fadeInTime)
-        {
-            float alphaChange = Time.deltaTime / fadeInTime;
-            // the A part of visibility of color area
-            currentColor.a -= alphaChange;
-            fadePanel.color = currentColor;
-        }
-        else
-        {
-            gameObject.SetActive(false);
-        }
+	void Update () {
+		if (Time.timeSinceLevelLoad < fadeInTime) {
+			// Fade in
+			float alphaChange = Time.deltaTime / fadeInTime;
+			currentColor.a -= alphaChange;
+			fadePanel.color = currentColor;
+		} else {
+			gameObject.SetActive (false);
+		}
 	}
 }
