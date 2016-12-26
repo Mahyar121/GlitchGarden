@@ -10,8 +10,16 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        // used for Splash Screen loading
-        Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+        if (autoLoadNextLevelAfter == 0)
+        {
+            Debug.Log("Level auto load is disabled");
+        }
+        else
+        {
+            // used for Splash Screen loading
+            Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+        }
+  
     }
 
     public void LoadLevel(string name)
