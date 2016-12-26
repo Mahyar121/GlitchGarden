@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
             // used for Splash Screen loading
             Invoke("LoadNextLevel", autoLoadNextLevelAfter);
         }
+        
   
     }
 
