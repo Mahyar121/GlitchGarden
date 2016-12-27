@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class GameTimer : MonoBehaviour {
+public class GameTimer : MonoBehaviour 
+{
 
 	public float levelSeconds = 100;
 
@@ -13,7 +14,8 @@ public class GameTimer : MonoBehaviour {
 	private GameObject winLabel;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		slider = GetComponent<Slider>();
 		audioSource = GetComponent<AudioSource>();
 		levelManager = GameObject.FindObjectOfType<LevelManager>();
@@ -24,17 +26,20 @@ public class GameTimer : MonoBehaviour {
 	void FindYouWin ()
 	{
 		winLabel = GameObject.Find ("You Win");
-		if (!winLabel) {
+		if (!winLabel) 
+		{
 			Debug.LogWarning ("Please create You Win object");
 		}
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		slider.value = Time.timeSinceLevelLoad / levelSeconds;
 		
 		bool timeIsUp = (Time.timeSinceLevelLoad >= levelSeconds);
-		if (timeIsUp && !isEndOfLevel) {
+		if (timeIsUp && !isEndOfLevel) 
+		{
 			HandleWinCondition ();
 		}
 	}
@@ -49,15 +54,18 @@ public class GameTimer : MonoBehaviour {
 	}
 	
 	// Destroys all objects with destroyOnWin tag
-	void DestroyAllTaggedObjects() {
+	void DestroyAllTaggedObjects() 
+	{
 		GameObject[] taggedObjectArray = GameObject.FindGameObjectsWithTag ("destroyOnWin");
 		
-		foreach (GameObject taggedObject in taggedObjectArray) {
+		foreach (GameObject taggedObject in taggedObjectArray) 
+		{
 			Destroy (taggedObject);
 		}
 	}
 	
-	void LoadNextLevel () {
+	void LoadNextLevel () 
+	{
 		levelManager.LoadNextLevel();
 	}
 }
