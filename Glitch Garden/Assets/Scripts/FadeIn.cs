@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class FadeIn : MonoBehaviour {
+public class FadeIn : MonoBehaviour 
+{
 
 	public float fadeInTime;
 	
@@ -10,18 +11,23 @@ public class FadeIn : MonoBehaviour {
 	private Color currentColor = Color.black;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		fadePanel = GetComponent<Image>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (Time.timeSinceLevelLoad < fadeInTime) {
+	void Update () 
+	{
+		if (Time.timeSinceLevelLoad < fadeInTime)
+		{
 			// Fade in
 			float alphaChange = Time.deltaTime / fadeInTime;
 			currentColor.a -= alphaChange;
 			fadePanel.color = currentColor;
-		} else {
+		} 
+		else 
+		{
 			gameObject.SetActive (false);
 		}
 	}
