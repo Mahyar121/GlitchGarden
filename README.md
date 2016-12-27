@@ -1,2 +1,2 @@
 # GlitchGarden
-This game was based off the Unity Course
+This game was built during the Unity Course I took.
