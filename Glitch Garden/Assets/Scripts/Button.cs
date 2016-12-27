@@ -20,10 +20,6 @@ public class Button : MonoBehaviour {
 		costText.text = defenderPrefab.GetComponent<Defender>().starCost.ToString();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 	
 	void OnMouseDown () {
 		foreach (Button thisButton in buttonArray) {
