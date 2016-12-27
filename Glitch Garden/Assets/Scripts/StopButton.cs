@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StopButton : MonoBehaviour {
+public class StopButton : MonoBehaviour 
+{
 
 	private LevelManager levelManager;
 	
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		levelManager = GameObject.FindObjectOfType<LevelManager>();
 	}
 
-	void OnMouseDown() {
+	void OnMouseDown()
+	{
 		levelManager.LoadLevel ("01a Start");
 	}
 }
