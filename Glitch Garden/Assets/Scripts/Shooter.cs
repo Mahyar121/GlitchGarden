@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Shooter : MonoBehaviour {
+public class Shooter : MonoBehaviour 
+{
 
 	public GameObject projectile, gun;
 	
@@ -9,32 +10,41 @@ public class Shooter : MonoBehaviour {
 	private Animator animator;
 	private Spawner myLaneSpawner;
 	
-	void Start () {
+	void Start () 
+	{
 		animator = GameObject.FindObjectOfType<Animator>();
 		
 		// Creates a parent if necessary
 		projectileParent = GameObject.Find ("Projectiles");
-		if (!projectileParent) {
+		if (!projectileParent) 
+		{
 			projectileParent = new GameObject("Projectiles");
 		}
 		
 		SetMyLaneSpawner();
 	}
 	
-	void Update () {
-		if (IsAttackerAheadInLane()) {
+	void Update () 
+	{
+		if (IsAttackerAheadInLane()) 
+		{
 			animator.SetBool ("isAttacking", true);
-		} else {
+		} 
+		else 
+		{
 			animator.SetBool ("isAttacking", false);
 		}
 	}
 	
 	// Look through all spawners, and set myLaneSpanwer if found
-	void SetMyLaneSpawner () {
+	void SetMyLaneSpawner () 
+	{
 		Spawner[] spawnerArray = GameObject.FindObjectsOfType<Spawner>();
 		
-		foreach (Spawner spawner in spawnerArray) {
-			if (spawner.transform.position.y == transform.position.y) {
+		foreach (Spawner spawner in spawnerArray) 
+		{
+			if (spawner.transform.position.y == transform.position.y) 
+			{
 				myLaneSpawner = spawner;
 				return;
 			}
@@ -43,15 +53,19 @@ public class Shooter : MonoBehaviour {
 		Debug.LogError (name + " can't find spawner in lane");
 	}
 	
-	bool IsAttackerAheadInLane() {
+	bool IsAttackerAheadInLane() 
+	{
 		// Exit if no attackers in lane
-		if (myLaneSpawner.transform.childCount <= 0) {
+		if (myLaneSpawner.transform.childCount <= 0) 
+		{
 			return false;
 		}
 		
 		// If there are attackers, are they ahead?
-		foreach (Transform attacker in myLaneSpawner.transform) {
-			if (attacker.transform.position.x > transform.position.x) {
+		foreach (Transform attacker in myLaneSpawner.transform) 
+		{
+			if (attacker.transform.position.x > transform.position.x) 
+			{
 				return true;
 			}
 		}
@@ -60,7 +74,8 @@ public class Shooter : MonoBehaviour {
 		return false;
 	}
 	
-	private void Fire () {
+	private void Fire () 
+	{
 		GameObject newProjectile = Instantiate (projectile) as GameObject;
 		newProjectile.transform.parent = projectileParent.transform;
 		newProjectile.transform.position = gun.transform.position;
